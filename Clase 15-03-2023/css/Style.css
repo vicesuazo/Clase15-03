@@ -14,15 +14,14 @@
 }
 .contenedorFooter{
     width: 100%;
-    border:solid red;
     display: flex;
     flex-direction: row;
 }
 .boxFooter{
     width: 33.3%;
-    border: solid yellow;
+    background-color: gray;
     padding: 20px;
-        
+
 }
 a{
     text-decoration: none;
@@ -37,4 +36,28 @@ a{
 }
 .minibox a{
     padding-left: 15px;
+}
+.boxFooter p{
+    text-align: justify;
+}
+.minibox a:hover{
+    color: orange;
+    /* display: none;  es para cuando pase el mouse se esconda */
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.box i{
+    padding-right: 15px;
+}
+.contenedor{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.contenedorInput{
+    display: flex;
+    flex-direction: column;
+
 }
