@@ -63,3 +63,26 @@ a{
     height: 20%;
 
 }
+table{
+    width: 100%;
+}
+table th,tr{
+    text-align: center;
+
+}
+.data{
+    background-color: bisque;
+    height: 50px;
+}
+.data2{
+    background-color:rgb(red, green, blue);
+    height: 50px;
+}
+.data3{
+    background-color: green;
+    height: 50px;
+}
+body{
+    background-image: linear-gradient(to right, #002dff, #e500ba, #ff006f, #ff6031, #ffac00, #ebc700, #cae100, #98fa00, #83f602, #6bf208, #4eed10, #20e918);
+}
+    

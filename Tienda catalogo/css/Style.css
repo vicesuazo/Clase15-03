@@ -1,0 +1,62 @@
+.mt-3{
+    margin-top: 50px !important;
+}
+.container-item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.contenedorFooter{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+}
+.boxFooter{
+    width: 33.3%;
+    
+    padding: 20px;
+}
+.miniBox img{
+    height: 30px;
+    width: 30px;
+}
+
+.miniBox{
+    display: flex;
+    align-items: center;
+}
+
+.miniBox a{
+    padding-left: 15px;
+}
+
+
+.boxFooter p{
+    text-align: justify;
+}
+
+.miniBox a:hoverper{
+    color: orange;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box i{
+    padding-right: 15px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+
+}
+.card img:hover{
+    transform: scale(1.15);
+}
